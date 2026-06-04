@@ -1,0 +1,22 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+.dump
+
+# Old checkpoints (jangan di-push)
+model_dinov2epoch1.pth
+model_dinov2epoch2.pth
+model_dinov2epoch3.pth
+model_dinov2epoch4.pth
+model_dinov2epoch5.pth
+best_model_dinov2pertama.pth
+
+# Database (di-generate saat runtime)
+predictions.db
+
+# Dataset (terlalu besar untuk repo)
+dataset/
